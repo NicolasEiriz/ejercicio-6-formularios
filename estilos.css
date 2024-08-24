@@ -28,6 +28,12 @@ h1{
     text-align: center;
     width: 600px;
     color: #e8eaed;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+form h1 span{
+    margin-left: 10px;
 }
 
 form{
@@ -38,12 +44,13 @@ form{
     align-items: center;
     color: #32342e;
     gap: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
 
-form h1 span{
-    margin-left: 10px;
-}
+
 
 fieldset{
     display: flex;
@@ -68,6 +75,8 @@ fieldset legend{
     color: #e8eaed;
     padding: 5px;
     border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
 fieldset > p{
