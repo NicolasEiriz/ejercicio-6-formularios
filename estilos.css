@@ -7,6 +7,7 @@
 body{
     background-color: #1f2023;
     color: #e8eaed;
+    padding-bottom: 30px;
     
 }
 
@@ -15,7 +16,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     gap: 20px;
 }
 
@@ -27,10 +27,10 @@ h1{
     padding: 5px;
     text-align: center;
     width: 600px;
+    color: #e8eaed;
 }
 
 form{
-    border: 1px solid green;
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -119,12 +119,54 @@ fieldset#contacto input{
 fieldset#actividades{
     background-color: #a6c1b9;
     align-items: flex-start;
-    justify-content: flex-start;
-    text-align: start;
 }
 
 fieldset#actividades > div{
     display: flex;
     gap: 10px;
+    flex-direction: column;
+}
+
+fieldset#actividades .contenedor{
+    display: flex;
     align-items: center;
+    gap: 10px;
+}
+
+fieldset#actividades > p{
+    align-items: flex-start;
+}
+
+.sede{
+    text-align: left;
+}
+
+.condiciones{
+    align-self: flex-start;
+    gap: 10px;
+    padding: 0px 15px;
+    color: #e8eaed;
+}
+
+.condiciones > p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.condiciones input{
+    width: 12px;
+}
+
+#botones-formulario{
+    display: flex;
+    gap: 35px;
+}
+
+#botones-formulario button{
+    padding: 8px;
+    background-color: #2d3f3a;
+    border: 1px solid #394e4a;
+    color: #6da7ad;
 }
